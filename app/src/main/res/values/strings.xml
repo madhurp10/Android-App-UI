@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Final App</string>
+
+    <!-- Splash Screen -->
+    <string name="my_name">Madhur Pant</string>
+    <string name="portfolio">Portfolio</string>
+
+
+    <!-- Dashboard -->
+    <string name="search">Search...</string>
+    <string name="projects">Machine Learning Projects</string>
+    <string name="dl_projects">Deep Learning Projects</string>
+
+    <string name="titanic_body">This project was made using KNN model.</string>
+
+
+
+</resources>

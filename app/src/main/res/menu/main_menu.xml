@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+
+        <item android:id="@+id/nav_search"
+            android:title="Search"
+            android:icon="@drawable/ic_search"/>
+
+        <item android:id="@+id/nav_all_categories"
+            android:title="All Categories"
+            android:icon="@drawable/ic_home"/>
+
+        <item android:id="@+id/nav_other"
+            android:title="other"
+            android:icon="@drawable/ic_home"/>
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_login"
+                    android:title="Home"
+                    android:icon="@drawable/ic_home"/>
+
+                <item android:id="@+id/nav_profile"
+                    android:title="Search"
+                    android:icon="@drawable/ic_search"/>
+
+                <item android:id="@+id/nav_all_logout"
+                    android:title="All Categories"
+                    android:icon="@drawable/ic_home"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/cat_1"
+                    android:title="Home"
+                    android:icon="@drawable/ic_home"/>
+
+                <item android:id="@+id/nav_cat_2"
+                    android:title="Search"
+                    android:icon="@drawable/ic_search"/>
+
+                <item android:id="@+id/nav_all_cat_3"
+                    android:title="All Categories"
+                    android:icon="@drawable/ic_home"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Share">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item android:id="@+id/share"
+                    android:title="share"
+                    android:icon="@drawable/ic_home"/>
+
+                <item android:id="@+id/nav_rate_us"
+                    android:title="Rate Us"
+                    android:icon="@drawable/ic_search"/>
+
+            </group>
+        </menu>
+    </item>
+</menu>
